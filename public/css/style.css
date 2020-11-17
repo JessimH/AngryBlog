@@ -1,0 +1,218 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  margin: 0 0 4em 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dark {
+  color: white;
+  background-color: black;
+  transition: 0.2s;
+}
+
+.btns-head{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.darkmode{
+  background-color: black;
+  align-self: flex-end;
+  width: 70px;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 2px 3px 10px rgba(107, 107, 107, 0.767);
+}
+
+h1 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+a {
+  margin-left: 10px;
+  color: #4b77be;
+  text-decoration: none;
+}
+
+.plus{
+  margin-right: 10px;
+  /* border: 2px solid rgb(63, 173, 63); */
+  background-color: white;
+  padding: 0.2px;
+  padding-bottom: 0.5px;
+  padding-left: 4.5px;
+  border-radius: 50%;
+  color: rgb(63, 173, 63);
+}
+
+.add{
+  margin-left: 100px;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 0px;
+  margin-top: 20px;
+  background-color: rgb(63, 173, 63);
+  box-shadow: 2px 3px 10px rgba(63, 173, 63, 0.623);
+}
+
+.add:hover{
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+
+header {
+  color: white;
+  background: url("/img/angrypic.jpg") #4b77be center top no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 10vw 2em;
+  text-shadow: 1px 1px 5px #333;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.container {
+  max-width: 70%;
+  margin: auto;
+  margin-top: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  margin-top: 30px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  width: 120%;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+  margin-left: -30px;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+}
+
+.delete{
+  cursor: pointer;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 72, 72);
+  border-radius: 3px;
+  color: white;
+  width: 70px;
+  box-shadow: 2px 3px 10px rgba(255, 72, 72, 0.623);
+}
+
+.delete:hover{
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+
+.update{
+  cursor: pointer;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 130, 72);
+  border-radius: 3px;
+  color: white;
+  width: 70px;
+  box-shadow: 2px 3px 10px  rgba(255, 130, 72, 0.623);
+}
+
+.update:hover{
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+
+li:before {
+  content: "🗣";
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+.error {
+  background-color: rgb(255, 72, 72);
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.success {
+  background-color: rgb(63, 173, 63);
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.form{
+  margin-bottom: 30px;
+}
+
+.submit{
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  width: 30%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(0, 119, 255);
+  box-shadow: 2px 3px 10px  rgba(0, 119, 255, 0.623);
+}
+
+.submit:hover{
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+
+.back{
+  margin: 0;
+  font-size: 1.7em;
+  background-color: rgb(0, 119, 255);
+  box-shadow: 2px 3px 10px  rgba(0, 119, 255, 0.623);
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 50%;
+}
+
+.back:hover{
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+

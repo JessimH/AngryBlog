@@ -1,0 +1,26 @@
+{
+  "name": "clement/composer-blog",
+  "description": "A blog using Composer",
+  "scripts": {
+    "serve": "php -S 0.0.0.0:8080 -t public/"
+  },
+  "autoload": {
+    "files": [
+      "app/models/model.php",
+      "app/models/post.php",
+      "app/helpers/view.php",
+      "app/controllers/post.php"
+    ]
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.2",
+    "nesbot/carbon": "^2.41",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "filp/whoops": "^2.9"
+  },
+  "config": {
+    "process-timeout": 0
+  }
+}
